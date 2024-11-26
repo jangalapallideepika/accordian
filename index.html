@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body class="mt-5 bg-warning">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card bg-primary"></div>
+                <div class="accordion" id="acc" >
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button text-primary collapsed" data-bs-toggle="collapse" data-bs-target="#one"><h4 class="text-info ">What is HTML?</h4></button>
+                            <div class="bg-light collapse accordion-collapse" id="one" data-bs-parent="#acc">
+                                <div class="accordion-body">
+                                    <p >HTML is the standard language for creating and displaying web content in a browser. It uses tags, elements, and attributes to structure, format, and enhance text, images, and other media.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2nd Accordion-item-->
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button text-primary collapsed" data-bs-toggle="collapse" data-bs-target="#Two"><h4 class="text-info ">What is the difference between HTML and XHTML??</h4></button>
+                            <div class="bg-light collapse accordion-collapse" id="Two" data-bs-parent="#acc">
+                                <div class="accordion-body">
+                                    <p class="lead">XHTML is a stricter version of HTML that follows XML syntax rules, such as properly closing tags, while HTML is more flexible.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 3rd Accordion-item-->
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button text-primary collapsed" data-bs-toggle="collapse" data-bs-target="#Three"><h4 class="text-info ">What is the purpose of the head tag in HTML??</h4></button>
+                            <div class="bg-light collapse accordion-collapse" id="Three" data-bs-parent="#acc">
+                                <div class="accordion-body">
+                                    <p class="lead">It contains metadata and links to external resources, like stylesheets and scripts, but does not display content on the web page.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 4th Accordion-item-->
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button text-primary collapsed" data-bs-toggle="collapse" data-bs-target="#four"><h4 class="text-info ">What is the difference between id and class attributes in HTML?</h4></button>
+                            <div class="bg-light collapse accordion-collapse" id="four" data-bs-parent="#acc">
+                                <div class="accordion-body">
+                                    <p class="lead">id is a unique identifier for one element on the page.<br>
+                                        class can be used by multiple elements and is mainly for applying styles or JS behavior.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 5th Accordion-item-->
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button text-primary collapsed" data-bs-toggle="collapse" data-bs-target="#five"><h4 class="text-info ">What is the purpose of the input tag and what types of input can it handle??</h4></button>
+                            <div class="bg-light collapse accordion-collapse" id="five" data-bs-parent="#acc">
+                                <div class="accordion-body">
+                                    <p class="lead">It is used to create input fields in forms. It handles various types, such as text, password, email, checkbox, radio, date, and file.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 6th Accordion-item-->
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button text-primary collapsed" data-bs-toggle="collapse" data-bs-target="#six"><h4 class="text-info ">What are HTML5 web workers?</h4></button>
+                            <div class="bg-light collapse accordion-collapse" id="six" data-bs-parent="#acc">
+                                <div class="accordion-body">
+                                    <p class="lead">Web workers allow JavaScript to run in the background, off the main UI thread, improving performance for tasks like complex calculations.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 7th Accordion-item-->
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button text-primary collapsed" data-bs-toggle="collapse" data-bs-target="#seven"><h4 class="text-info ">What is the use of the iframe tag?</h4></button>
+                            <div class="bg-light collapse accordion-collapse" id="seven" data-bs-parent="#acc">
+                                <div class="accordion-body">
+                                    <p class="lead">It is used to embed another HTML document or external content like a webpage or video within the current page.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 8th Accordion-item-->
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button text-primary collapsed" data-bs-toggle="collapse" data-bs-target="#eight"><h4 class="text-info ">What is the difference between src and href attributes?</h4></button>
+                            <div class="bg-light collapse accordion-collapse" id="eight" data-bs-parent="#acc">
+                                <div class="accordion-body">
+                                    <p class="lead">src is used for embedding resources like images or scripts into a page.
+                                        href is used to reference external resources, typically for links.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 9th Accordion-item-->
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button text-primary collapsed" data-bs-toggle="collapse" data-bs-target="#nine"><h4 class="text-info ">How does caching work in HTML?</h4></button>
+                            <div class="bg-light collapse accordion-collapse" id="nine" data-bs-parent="#acc">
+                                <div class="accordion-body">
+                                    <p class="lead">Caching stores web resources like images, stylesheets, and scripts to improve load speed. You can control caching with HTTP headers and the meta tag.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 10th Accordion-item-->
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button text-primary collapsed" data-bs-toggle="collapse" data-bs-target="#Ten"><h4 class="text-info ">What is HTML stands for?</h4></button>
+                            <div class="bg-light collapse accordion-collapse" id="Ten" data-bs-parent="#acc">
+                                <div class="accordion-body">
+                                    <p class="lead">HyperTextMarkUpLanguage</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-warning"></div>
+                <div class="accordion" id="accd">
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button text-primary collapsed" data-bs-toggle="collapse" data-bs-target="#eleven"><h4 class="text-info ">What is Java?</h4></button>
+                            <div class="bg-light collapse accordion-collapse" id="eleven" data-bs-parent="#acc">
+                                <div class="accordion-body">
+                                    <p class="lead">Java is a high-level, object-oriented programming language designed to be platform-independent, allowing "write once, run anywhere" functionality.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2nd Accordion-item-->
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button text-primary collapsed" data-bs-toggle="collapse" data-bs-target="#twelve"><h4 class="text-info ">What are the main features of Java?</h4></button>
+                            <div class="bg-light collapse accordion-collapse" id="twelve" data-bs-parent="#accd">
+                                <div class="accordion-body">
+                                    <p class="lead">Java features include platform independence, object-oriented, simple, secure, multi-threaded, robust, and distributed.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 3rd Accordion-item-->
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button text-primary collapsed" data-bs-toggle="collapse" data-bs-target="#Thriteen"><h4 class="text-info ">What is bytecode in Java?</h4></button>
+                            <div class="bg-light collapse accordion-collapse" id="Thriteen" data-bs-parent="#accd">
+                                <div class="accordion-body">
+                                    <p class="lead">Bytecode is the intermediate code generated after the Java source code is compiled. The JVM interprets bytecode into machine code.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 4th Accordion-item-->
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button text-primary collapsed" data-bs-toggle="collapse" data-bs-target="#fourteen"><h4 class="text-info ">What is a class in Java?</h4></button>
+                            <div class="bg-light collapse accordion-collapse" id="fourteen" data-bs-parent="#accd">
+                                <div class="accordion-body">
+                                    <p class="lead">A class is a blueprint from which individual objects are created. It contains fields (attributes) and methods to define the behavior of an object.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 5th Accordion-item-->
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button text-primary collapsed" data-bs-toggle="collapse" data-bs-target="#fifteen"><h4 class="text-info ">What is an object in Java?</h4></button>
+                            <div class="bg-light collapse accordion-collapse" id="fifteen" data-bs-parent="#accd">
+                                <div class="accordion-body">
+                                    <p class="lead">An object is an instance of a class. It is a real-world entity with state (attributes) and behavior.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 6th Accordion-item-->
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button text-primary collapsed" data-bs-toggle="collapse" data-bs-target="#sixteen"><h4 class="text-info ">What is inheritance in Java?</h4></button>
+                            <div class="bg-light collapse accordion-collapse" id="sixteen" data-bs-parent="#accd">
+                                <div class="accordion-body">
+                                    <p class="lead">Inheritance allows one class (subclass/child) to inherit properties and behavior (fields and methods) from another class (superclass/parent).</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 7th Accordion-item-->
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button text-primary collapsed" data-bs-toggle="collapse" data-bs-target="#seventeen"><h4 class="text-info ">What is method overloading in Java?</h4></button>
+                            <div class="bg-light collapse accordion-collapse" id="seventeen" data-bs-parent="#accd">
+                                <div class="accordion-body">
+                                    <p class="lead">Method overloading allows a class to have multiple methods with the same name but different parameter lists (type or number of arguments).</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 8th Accordion-item-->
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button text-primary collapsed" data-bs-toggle="collapse" data-bs-target="#eighteen"><h4 class="text-info ">What is method overriding in Java?</h4></button>
+                            <div class="bg-light collapse accordion-collapse" id="eighteen" data-bs-parent="#accd">
+                                <div class="accordion-body">
+                                    <p class="lead">Method overriding allows a subclass to provide a specific implementation of a method already defined in its superclass.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 9th Accordion-item-->
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button text-primary collapsed" data-bs-toggle="collapse" data-bs-target="#ninteen"><h4 class="text-info ">What is polymorphism in Java?</h4></button>
+                            <div class="bg-light collapse accordion-collapse" id="ninteen" data-bs-parent="#accd">
+                                <div class="accordion-body">
+                                    <p class="lead">Polymorphism allows one interface to be used for different types of actions. There are two types: compile-time (method overloading) and runtime (method overriding).</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 10th Accordion-item-->
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button text-primary collapsed" data-bs-toggle="collapse" data-bs-target="#Twenty"><h4 class="text-info ">What is exception handling in Java?</h4></button>
+                            <div class="bg-light collapse accordion-collapse" id="Twenty" data-bs-parent="#accd">
+                                <div class="accordion-body">
+                                    <p class="lead">Exception handling is the mechanism to handle runtime errors, ensuring the program runs smoothly. Keywords used include try, catch, finally, throw, and throws.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-warning"></div>
+                <div class="accordion" id="accord">
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button text-primary collapsed" data-bs-toggle="collapse" data-bs-target="#twentyone"><h4 class="text-info ">Who is considered the "Father of Telugu Cinema"?</h4></button>
+                            <div class="bg-light collapse accordion-collapse" id="twentyone" data-bs-parent="#accord">
+                                <div class="accordion-body">
+                                    <p class="lead">Raghupathi Venkaiah Naidu is considered the father of Telugu cinema.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2nd Accordion-item-->
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button text-primary collapsed" data-bs-toggle="collapse" data-bs-target="#twentytwo"><h4 class="text-info ">What is the Nandi Award?</h4></button>
+                            <div class="bg-light collapse accordion-collapse" id="twentytwo" data-bs-parent="#accord">
+                                <div class="accordion-body">
+                                    <p class="lead">The Nandi Award is the highest award given by the government of Andhra Pradesh to recognize excellence in Telugu cinema, theatre, and television.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 3rd Accordion-item-->
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button text-primary collapsed" data-bs-toggle="collapse" data-bs-target="#Twentythree"><h4 class="text-info ">Which Telugu actor is known as the "Megastar"?</h4></button>
+                            <div class="bg-light collapse accordion-collapse" id="Twentythree" data-bs-parent="#accord">
+                                <div class="accordion-body">
+                                    <p class="lead">Chiranjeevi is known as the "Megastar" of Telugu cinema.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 4th Accordion-item-->
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button text-primary collapsed" data-bs-toggle="collapse" data-bs-target="#twentyfour"><h4 class="text-info ">What was the first Indian film to gross over ₹1,000 crore globally, and in which language was it released?</h4></button>
+                            <div class="bg-light collapse accordion-collapse" id="twentyfour" data-bs-parent="#accord">
+                                <div class="accordion-body">
+                                    <p class="lead">Baahubali 2: The Conclusion was the first Indian film to gross over ₹1,000 crore, and it was released in Telugu (along with other languages).</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 5th Accordion-item-->
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button text-primary collapsed" data-bs-toggle="collapse" data-bs-target="#twentyfive"><h4 class="text-info ">What are the major genres in Telugu cinema?</h4></button>
+                            <div class="bg-light collapse accordion-collapse" id="twentyfive" data-bs-parent="#accord">
+                                <div class="accordion-body">
+                                    <p class="lead">Major genres in Telugu cinema include action, drama, romance, mythology, comedy, and thriller.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 6th Accordion-item-->
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button text-primary collapsed" data-bs-toggle="collapse" data-bs-target="#twentysix"><h4 class="text-info ">Who is the female lead in the film Geetha Govindam?</h4></button>
+                            <div class="bg-light collapse accordion-collapse" id="twentysix" data-bs-parent="#accord">
+                                <div class="accordion-body">
+                                    <p class="lead">Rashmika Mandanna played the female lead in Geetha Govindam.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 7th Accordion-item-->
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button text-primary collapsed" data-bs-toggle="collapse" data-bs-target="#twentyseven"><h4 class="text-info ">Who are the most notable actors in the "Nandamuri" family?</h4></button>
+                            <div class="bg-light collapse accordion-collapse" id="twentyseven" data-bs-parent="#accord">
+                                <div class="accordion-body">
+                                    <p class="lead">The most notable actors in the Nandamuri family are Nandamuri Taraka Rama Rao (NTR), Nandamuri Balakrishna, and Nandamuri Taraka Rama Rao Jr. (Jr. NTR).</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 8th Accordion-item-->
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button text-primary collapsed" data-bs-toggle="collapse" data-bs-target="#twentyeight"><h4 class="text-info ">Which film won the National Award for Best Feature Film in Telugu in 2019?</h4></button>
+                            <div class="bg-light collapse accordion-collapse" id="twentyeight" data-bs-parent="#accord">
+                                <div class="accordion-body">
+                                    <p class="lead">Mahanati won the National Award for Best Feature Film in Telugu in 2019.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 9th Accordion-item-->
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button text-primary collapsed" data-bs-toggle="collapse" data-bs-target="#twentynine"><h4 class="text-info ">Which Telugu movie was India's official entry to the Oscars in 2023?</h4></button>
+                            <div class="bg-light collapse accordion-collapse" id="twentynine" data-bs-parent="#accord">
+                                <div class="accordion-body">
+                                    <p class="lead">RRR was India's official entry to the Oscars in 2023 in some categories.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 10th Accordion-item-->
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button text-primary collapsed" data-bs-toggle="collapse" data-bs-target="#Thirty"><h4 class="text-info ">What is the role of Ramanaidu Studios in the history of Telugu cinema?</h4></button>
+                            <div class="bg-light collapse accordion-collapse" id="Thirty" data-bs-parent="#accord">
+                                <div class="accordion-body">
+                                    <p class="lead">Ramanaidu Studios, founded by Dr. D. Ramanaidu, has been pivotal in the production of hundreds of Telugu films and is one of the largest film production facilities in India.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
